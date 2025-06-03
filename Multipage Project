@@ -1,0 +1,106 @@
+## 🔗 **Project 1: Personal Portfolio Website (Multi-page)**
+
+📁 Folder: `/project-portfolio-site/`
+
+### 🔧 Structure:
+
+```
+project-portfolio-site/
+├── index.html          → Home page
+├── about.html          → About Me
+├── projects.html       → Projects
+├── contact.html        → Contact
+└── /images/            → (store any images here)
+```
+
+---
+
+### 🌐 Pages Overview:
+
+#### `index.html` — **Home**
+
+* Welcome heading: “Hi, I’m \[Name]”
+* Intro paragraph
+* Navigation bar linking to other pages (`about.html`, `projects.html`, `contact.html`)
+* Use `<nav>` + internal `<a href="...">` links
+
+#### `about.html` — **About Me**
+
+* Bio paragraph(s)
+* An image (profile or placeholder)
+* Fun facts or interests list
+
+#### `projects.html` — **My Projects**
+
+* List at least 3 projects with:
+
+  * Name/title
+  * Short description
+  * Link to the actual project folder (e.g., `/03-lists/`, or just dummy links for now)
+
+#### `contact.html` — **Contact Me**
+
+* A simple form with:
+
+  * Name
+  * Email
+  * Message
+  * Submit button
+
+---
+
+### 🔗 Key HTML Concepts Used:
+
+* Internal page linking
+* Repeated nav bar across pages
+* Folder/file path navigation
+* Organizing a site like a directory
+
+---
+
+## 🔗 **Project 2: Recipe Book (Multi-page)**
+
+📁 Folder: `/project-recipe-book/`
+
+### 🔧 Structure:
+
+```
+project-recipe-book/
+├── index.html          → Homepage: Recipe List
+├── pasta.html          → Pasta Recipe
+├── pancakes.html       → Pancakes Recipe
+├── curry.html          → Curry Recipe
+└── /images/            → (optional food images)
+```
+
+---
+
+### 🌐 Pages Overview:
+
+#### `index.html` — **Recipe Directory**
+
+* Title: "My Recipe Book"
+* Use a list of links:
+
+  * "Pasta" → `pasta.html`
+  * "Pancakes" → `pancakes.html`
+  * "Curry" → `curry.html`
+
+#### `pasta.html`, `pancakes.html`, `curry.html`
+
+Each should have:
+
+* `<h1>` for the recipe name
+* List of ingredients (`<ul>`)
+* Steps (`<ol>`)
+* An image (optional)
+* A link back to `index.html` (e.g., "← Back to all recipes")
+
+---
+
+### 🔗 Key HTML Concepts Used:
+
+* Multiple HTML files
+* Internal linking between pages
+* Consistent layout patterns
+* Lists and headings
