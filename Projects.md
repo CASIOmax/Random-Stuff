@@ -162,25 +162,3 @@ Include:
 * `<footer>` with your email or social link
 
 🧠 Article topic idea: "Why I'm Learning Web Development"
-
----
-
-### 🎯 Final Project: **Personal Web Page**
-
-📁 `/project-personal-site/index.html`
-
-**Prompt:**
-Combine everything learned into a basic personal website.
-
-Page must include:
-
-* A `<header>` with your name and navigation links
-* An "About Me" section (bio + image)
-* A "Portfolio" section with project names (can just be links or text)
-* A "Contact Me" form
-* A `<footer>` with social media or credits
-
-💡 Optional:
-
-* Link each project folder you've done in this course!
-* Make nav links jump to page sections using `id`
